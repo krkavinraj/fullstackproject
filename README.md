@@ -20,4 +20,4 @@ This project enables farmers to share or pool transport for agricultural produce
 All images are placeholders. Replace `<img src="img/..." ...>` with your own unique images as needed.
 
 ---
-Strictly built with the technologies in the syllabus. No external frameworks.
+
