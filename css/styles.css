@@ -1,0 +1,129 @@
+/* Modern Agriride Green Agri Styles */
+
+body {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #20451f;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #388e3c 0%, #66bb6a 100%) !important;
+  box-shadow: 0 2px 8px rgba(56, 189, 248, 0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #20451f !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background: #a5d6a7;
+  border-radius: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 24px rgba(76, 175, 80, 0.10), 0 1.5px 6px rgba(0,0,0,0.03);
+  background: #fff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(56, 189, 248, 0.15), 0 2px 8px rgba(0,0,0,0.05);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #388e3c 0%, #66bb6a 100%);
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: linear-gradient(90deg, #20451f 0%, #43a047 100%);
+  box-shadow: 0 4px 16px rgba(56, 189, 248, 0.14);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #388e3c !important;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+footer {
+  background: linear-gradient(90deg, #388e3c 0%, #66bb6a 100%) !important;
+  color: #fff;
+  box-shadow: 0 -2px 8px rgba(56, 189, 248, 0.05);
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.form-control:focus {
+  border-color: #66bb6a;
+  box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, 0.14);
+}
+
+.card-img-top, .img-fluid, img {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(76, 175, 80, 0.10);
+}
+
+section.bg-cover {
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.mt-12 { margin-top: 3rem !important; }
+.mb-12 { margin-bottom: 3rem !important; }
+
+/* Green highlight effect for important elements */
+.highlight-green {
+  background: linear-gradient(90deg, #a5d6a7 0%, #e8f5e9 100%);
+  border-left: 6px solid #388e3c;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  animation: fadeInHighlight 1s;
+}
+@keyframes fadeInHighlight {
+  0% { background: #fff; }
+  100% { background: linear-gradient(90deg, #a5d6a7 0%, #e8f5e9 100%); }
+}
+
+/* Subtle fade-in for sections */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Room for images */
+.image-placeholder {
+  background: #e8f5e9;
+  border: 2px dashed #a5d6a7;
+  border-radius: 1rem;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #66bb6a;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
